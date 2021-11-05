@@ -20,7 +20,6 @@ messenger = QtWidgets.QMainWindow()
 messenger_ui = Ui_messenger()
 messenger_ui.setupUi(messenger)
 
-
 def open_messenger():
     login.close() 
     title_edit()
